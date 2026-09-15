@@ -42,8 +42,10 @@ async function main() {
   }
 
   try {
+    // /price/v2 returns 404 as of Sept 2026 (Jupiter retired it) -- v3 is the
+    // live endpoint, confirmed directly against it, not assumed from old docs.
     const res = await fetch(
-      `https://api.jup.ag/price/v2?ids=${LAUNCH_QUOTE_MINT.toBase58()}`
+      `https://api.jup.ag/price/v3?ids=${LAUNCH_QUOTE_MINT.toBase58()}`
     );
     const json = await res.json();
     console.log('Jupiter price lookup:', JSON.stringify(json, null, 2));
