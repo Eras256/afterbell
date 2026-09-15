@@ -15,3 +15,4 @@ secrets/
 /agent/
 .aider-desk/
 skills-lock.json
+.claude/skills/teammate-commit-identity/
