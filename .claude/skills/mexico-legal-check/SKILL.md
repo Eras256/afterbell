@@ -17,21 +17,18 @@ allowed-tools: [Read, Write, Edit, WebFetch, WebSearch, Bash]
 
 # Mexico legal check -- regtech posture
 
-Adapted 2026-09-13 from a version shared by a sibling hub in this
-portfolio, which had already caught and corrected a real mistake (a
-session once concluded "Art. 24 Bis 4 does not exist" by checking only
-LFPIORPI's own law text, missing that it lives in the reglamento
-instead). This workspace's own memory does not yet hold the detailed,
-multi-session case history that version cites (`[[lfpiorpi-24bis4-
-lives-in-acuerdo-115]]`, `[[[proyecto hermano]-legal-tax-status]]`, etc.) -- those
-live in the sibling hub's memory, not duplicated here since they'd go
-stale immediately. What follows is the generic process plus the
-substantive legal facts, corroborated independently by this session via
-web search against multiple compliance-focused secondary sources (DOF
-code 5795797, published 7-ago-2026) before being accepted -- **not yet
-grepped against the primary DOF PDF by this session specifically.**
-Treat the dates below as well-corroborated, not primary-source-verified,
-until someone actually runs the extraction steps below.
+**The recurring pitfall this skill exists to catch: checking only
+LFPIORPI's own law text for an article number and wrongly concluding it
+"does not exist," when it actually lives in the reglamento (the Acuerdo)
+instead.** See "READ THIS FIRST" below.
+
+What follows is the generic process plus the substantive legal facts,
+corroborated independently by this session via web search against
+multiple compliance-focused secondary sources (DOF code 5795797,
+published 7-ago-2026) before being accepted -- **not yet grepped against
+the primary DOF PDF by this session specifically.** Treat the dates
+below as well-corroborated, not primary-source-verified, until someone
+actually runs the extraction steps below.
 
 ## READ THIS FIRST -- the law is not the same document as its reglamento
 
@@ -97,9 +94,9 @@ answer the next:
    -- 1-mar-2027 risk-based methodology/manual, 1-jun-2027 automated
    mechanisms, 1-ene-2028 first audit period -- for other, unrelated
    chapters). No source found supports a separate 17-ene-2027 date for
-   these specific articles. **One narrower exception reported by the
-   sibling hub, not yet independently corroborated by this session:**
-   a Transitorio Decimo Segundo reportedly gives actors *already
+   these specific articles. **One narrower exception, not yet
+   independently corroborated by this session:** a Transitorio Decimo
+   Segundo reportedly gives actors *already
    registered* under fraccion XVI a ~6-month grace period (to
    ~30-may-2027) to update their Art. 10 Bis registration info
    specifically -- described as not delaying fraccion XVI or Art. 24

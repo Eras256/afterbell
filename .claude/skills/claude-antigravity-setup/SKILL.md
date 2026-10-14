@@ -77,18 +77,10 @@ stack. Applies wherever this Skill is installed.
 ## Adopting this pattern from another project
 
 Never `cp` a `SKILL.md`, playbook, or config file's bytes directly from
-another project's repo into this one — even a sibling project using the
-identical pattern. Projects in the same portfolio are not meant to be
-byte-identical; divergence in wording and specifics is the expected, correct
-state. When a pattern is worth bringing over, treat the other project's copy
-as a reference to understand the convention, then write this project's own
-version by hand from that understanding — replacing every project-specific
-name, team, deliverable, and fact with this project's own before it's
-trusted for anything real.
-
-If a live peer session for the source project is reachable, messaging it to
-confirm identity or cross-check specifics is fine as a bonus — but don't
-block the install on a reply. Peer sessions are ephemeral: a `claude
---continue` restart gives a session a new identity, so a message sent to one
-instance may never reach anything after the restart. Proceed from the
-written reference memory/files if no reply lands in reasonable time.
+another project's repo into this one, even one using the identical pattern.
+Divergence in wording and specifics from project to project is the expected,
+correct state, not something to eliminate. When a pattern is worth bringing
+over, treat the other project's copy as a reference to understand the
+convention, then write this project's own version by hand from that
+understanding — replacing every project-specific name, team, deliverable,
+and fact with this project's own before it's trusted for anything real.
